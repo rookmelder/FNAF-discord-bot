@@ -1,35 +1,79 @@
-# fnaf-1-discord-bot-game
-i made fnaf 1 in a discord bot (using pictures)
+FNAF 1 — Discord Bot Edition
+A fully playable Five Nights at Freddy’s remake inside a Discord bot.
 
-all credits to Scott Cawthon
+This project recreates the core gameplay of Five Nights at Freddy’s 1 using Discord commands and image-based UI.
+It is a fan-made, non-commercial project created purely for fun.
 
-if you want this taken down contact me, i just made it for fun.
+All credits for the original game go to Scott Cawthon.
 
+Features
+Camera system with multiple rooms
 
-second python project so its not gonna be the best.
-i made everything myself (except for the pictures 🫢, i want to make them actually gifs or some, but that takes so much time and stuff so im not even gonna bother)
+Door controls (left and right)
 
+Light controls (left and right)
 
+Ability to return to the desk at any time
 
-## HOW TO PLAY 🤓
+Night selection (1–6)
 
-!start (to start, you can add a number from 1 - 6 to select a night (blank = 1))
+Uses static images to simulate the FNAF experience
 
-!stop (to stop)
+Written in Python using discord.py
 
-!l (you have to give a parameter: either "l" for the left light or "r" for the right light)
+Getting Started
+Requirements
+Python 3.10 or higher
 
-!r (you have to give a parameter: either "l" for the left door or "r" for the right door)
+discord.py installed
 
-!desk (brings you back to your desk)
+A Discord bot token
 
-!c (give a camera name to go to that camera)
+A server where you can invite your bot
 
-thats it
+Installation
+bash
+git clone https://github.com/rookmelder/FNAF-discord-bot
+cd FNAF-discord-bot
+pip install -r requirements.txt
+Running the bot
+Add your bot token to the script (or an environment variable), then run:
 
-important ! 😎
-you have to type !stop to stop.
+bash
+python main.py
+How to Play
+Use the following commands in any channel where the bot is allowed to respond:
 
-the game does not autamtically stop it for you
+!start [night] — Start the game (default night is 1)
 
-add me on discord if you have questions: rookmelder
+!stop — Stop the game (important: the game does not stop automatically)
+
+!l <l/r> — Toggle the left or right light
+
+!r <l/r> — Toggle the left or right door
+
+!desk — Return to the desk
+
+!c <camera> — Switch to a specific camera
+
+Example:
+
+Code
+!start 3
+!c cam2a
+!l l
+Project Structure
+Code
+FNAF-discord-bot/
+│
+├── main.py        # Main bot logic
+├── classes.py     # Game classes and logic
+├── pics/          # All images used for the game
+└── README.md
+Disclaimer
+This is a fan project.
+If you are the copyright holder and want this removed, contact me and I will take it down.
+
+Contact
+If you have questions or suggestions, you can reach me on Discord:
+rookmelder
