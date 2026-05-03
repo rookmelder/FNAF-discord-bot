@@ -7,6 +7,8 @@ It is a fan-made, non-commercial project created purely for fun.
 
 All credits for the original game go to Scott Cawthon.
 
+<img width="468" height="281" alt="image" src="https://github.com/user-attachments/assets/e64602fe-bd8e-4f64-b01b-9e56ce3253be" />
+
 ---
 
 ## Features
